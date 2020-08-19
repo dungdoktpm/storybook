@@ -44,7 +44,8 @@
     "build": "cross-env NODE_ENV=production gulp build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token 7803arc13jy"
   },
   "author": "",
   "license": "ISC",
