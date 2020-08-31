@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+}
+
+.pagination {
+  font-size: 24px;
+  display: inline-block;
+  font-family: $font-secondary;
+  font-weight: bold;
+  margin: 0 auto;
+  .active {
+    color:$color-success;
+    border-bottom: 2px solid $color-success;
+  }
+}
+.page-item {
+  position: relative;
+  display: inline-block;
+  padding-top:10px;
+}
+.page-link {
+  color:black;
+  padding: 10px 20px;
+  border:none;
+}
+
+.previous {
+  transform: rotate(180deg);
+}
+

@@ -1,5 +1,5 @@
 /* 0. Abstracts
-======================================================================== */ 
+======================================================================== */
 @import "abstracts/include_media.scss";
 @import "abstracts/variables.scss";
 @import "abstracts/extends.scss";
@@ -13,3 +13,20 @@
 /* 2. Components
 ======================================================================== */
 @import "components/**/*.scss";
+// @import "components/menu";
+// @import "components/footer";
+@import "components/counter";
+@import "components/service";
+@import "components/social-media";
+@import "components/grid-por";
+@import "components/grid-menu";
+@import "components/grid-por-item";
+@import "components/reply-form";
+@import "components/contact-info";
+@import "components/divider";
+@import "components/scroll";
+// 3. Layout
+@import "layout/grid";
+// 4. Font
+@import "fonts/pe-font7/pe-icon-7-stroke.css";
+

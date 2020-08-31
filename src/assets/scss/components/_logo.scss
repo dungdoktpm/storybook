@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  font-weight:bold;
+  &__text-first {
+    color:$color-success;
+  }
+  &--style01 {
+    color:white;
+  }
+}

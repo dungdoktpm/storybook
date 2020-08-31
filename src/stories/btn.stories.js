@@ -1,12 +1,12 @@
 import { action } from '@storybook/addon-actions';
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/btn',
 };
 
 export const Primary = () => {
   return /* html */ `
-    <button class="btn">
+    <button >
       Button Primary
     </button>
   `;
@@ -14,8 +14,6 @@ export const Primary = () => {
 
 export const Secondary = () => {
   return /* html */ `
-    <button class="btn btn--secondary">
-      Button Secondary
-    </button>
+    <button class="btn btn-submit">SUBMIT</button>
   `;
 };

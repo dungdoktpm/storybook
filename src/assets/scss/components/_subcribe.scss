@@ -1,0 +1,32 @@
+.subcribe {
+  padding-right: 10px;
+  position: relative;
+
+
+.sub__left img {
+  width: 100%;
+}
+.sub__right {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+.sub__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 55px;
+    & span {
+      color:$color-success;
+    }
+  }
+.sub__desc {
+    font-size: 16px;
+    font-weight: $font-normal;
+    font-family: $font-secondary;
+    color: $color-primary;
+    margin-bottom: 55px;
+    }
+  }
+}

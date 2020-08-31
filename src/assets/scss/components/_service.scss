@@ -1,0 +1,213 @@
+.service-item {
+  display: flex;
+  flex-direction: column;
+  @media (min-width:768px) {
+    flex-direction: row;
+    &:nth-child(2n) {
+      flex-direction: row-reverse;
+      .service-item__info {
+        padding: 70px 70px 70px 40px;
+        text-align: right;
+      }
+    }
+  }
+  & > div {
+    @media (min-width:768px) {
+      width: 50%;
+    }
+  }
+  &__img {
+    // background-image: url("https://picsum.photos/650");
+    @include cover-image;
+    position: relative;
+    @media (max-width:768px) {
+      min-height: 400px;
+    }
+    i {
+      @include pos-center ;
+      font-family: 'Pe-icon-7-stroke';
+      font-weight: normal;
+      font-size: 120px;
+      color: rgba($color: $color-success, $alpha: 0.8);
+
+    }
+
+  }
+  &:nth-child(1) {
+    .service-item__img{
+      background-image: url("https://picsum.photos/650");
+    }
+
+  }
+  &:nth-child(2) {
+    .service-item__img{
+      background-image: url("https://picsum.photos/500");
+    }
+
+  }
+  &:nth-child(3) {
+    .service-item__img{
+      background-image: url("https://picsum.photos/600");
+    }
+  }
+
+  &__info {
+    padding: 70px 40px 70px 70px;
+  }
+
+  &__number {
+    display: inline-block;
+    font-size: 100px;
+    font-weight: bold;
+    border-bottom: 15px solid;
+
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+  }
+  &__desc {
+    font-size: 16px;
+    font-family: $font-secondary;
+    color:#7e7e7e;
+    line-height: 26px;
+  }
+
+}
+
+.service-item__img::after {
+  position: absolute;
+  content: "";
+  top: 3%;
+  left: 3%;
+  width: 93.23%;
+  height: 93.23%;
+  // transform: translate(-50%,-50%);
+  border: 2px solid rgba($color: $color-primary, $alpha: 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .service-item {
+//   // background-color:red;
+//   position: relative;
+//   .number {
+//     display: inline;
+//     font-size: 100px;
+//     font-weight: bold;
+//     border-bottom: 15px solid;
+//     padding-bottom: 15px;
+
+//   }
+
+//   .sub__left {
+//     background-image: url("https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg");
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     width: 50%;
+//     // min-height: 200px;
+//     position: relative;
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       top: 50%;
+//       left: 50%;
+//       width: 96%;
+//       height: 96%;
+//       border:1px solid $color-primary;
+//       transform: translate(-50%,-50%);
+
+//     }
+//     &::before {
+//       content: "\f0e9";
+//       position: absolute;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%,-50%);
+//       font-size: 100px;
+//       color: $color-success;
+//       font-family: ' Line Awesome Free';
+//       font-weight: 900;
+//     }
+//   }
+//   .sub__right {
+//     padding: 0 60px;
+//     width: 50%;
+//   }
+
+//   .sub__title {
+//     font-size: 20px;
+//     margin-top: 100px;
+//     margin-bottom: 50px;
+//     letter-spacing: 6px;
+//     text-transform: uppercase;
+
+//   }
+//   .sub__desc {
+//     font-size: 16px;
+//     font-weight: $font-normal;
+//     font-family: $font-secondary;
+//     color: $color-primary;
+//     margin-bottom: 55px;
+//     line-height: 26px;
+//     }
+//   .border {
+
+//     height: 100%;
+//     border: 1px solid $color-primary;
+//     margin: 10px;
+//   }
+//   .row:nth-child(2n) {
+//     flex-direction: row-reverse;
+//     text-align: right;
+//   }
+// }

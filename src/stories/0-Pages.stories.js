@@ -1,6 +1,7 @@
 import getBody from "./utils";
 import home from "!source-loader!../index.html";
 import about from "!source-loader!../about.html";
+import blog from "!source-loader!../blog.html";
 
 export default {
   title: "Pages",
@@ -12,4 +13,8 @@ export const Home = () => {
 
 export const About = () => {
   return getBody(about);
+};
+
+export const Blog = () => {
+  return getBody(blog);
 };

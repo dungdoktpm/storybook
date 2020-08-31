@@ -1,0 +1,21 @@
+.counter {
+  display: inline-block;
+  &__number {
+    font-size: 48px;
+    font-weight: $font-light ;
+    font-family:$font-secondary;
+    color: #555555;
+  }
+  &__title {
+    font-size: 12px;
+    font-weight: $font-bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  & hr {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
