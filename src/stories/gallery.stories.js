@@ -292,8 +292,8 @@ export const Gallery01 = () => {
 
 export const Gallery02 = () => {
   return /* html */ `
-  <div class="gallery gallery__style01 container pt90">
-    <div class="gallery-menu gallery-menu--vertical p15">
+  <div class="gallery gallery--style01 container pt90">
+    <div class="gallery-menu gallery-menu--vertical p15 mb64">
       <div class="gallery-menu__title">
         <h3>
           Grid Creative
@@ -314,7 +314,7 @@ export const Gallery02 = () => {
     <div class="row">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-8">
-          <div class="gallery-item gallery-item__style01">
+          <div class="gallery-item gallery-item--style01">
             <a href="" class="gallery-item__wrap">
               <div class="gallery-item__img">
                   <img src="${img01}" alt="">
@@ -442,7 +442,7 @@ export const Gallery02 = () => {
       </div>
       <div class="row row--last">
         <div class="col-sm-12 col-md-12 col-lg-8">
-          <div class="gallery-item gallery-item__style01">
+          <div class="gallery-item gallery-item--style01">
             <a href="" class="gallery-item__wrap">
               <div class="gallery-item__img">
                   <img src="${img07}" alt="">

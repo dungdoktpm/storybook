@@ -24,7 +24,7 @@ a.active-link::after {
 
 }
 
-.gallery__style01 {
+.gallery--style01 {
   // width: 1300px;
   display: block;
   .row {
@@ -36,14 +36,13 @@ a.active-link::after {
   }
 
   .gallery-item {
-    max-width: 413px;
-    &__style01 {
-      max-width: 855px;
-    }
+    max-width: 100%;
   }
-  @media (max-width:768px) {
+  @media (min-width:768px) {
     .gallery-item {
-      max-width: 100%;
+      &--style01 {
+        max-width: 855px;
+      }
     }
   }
 }

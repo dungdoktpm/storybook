@@ -12,7 +12,7 @@ export const Primary = () => {
   `;
 };
 
-export const Secondary = () => {
+export const BntSubmit = () => {
   return /* html */ `
     <button class="btn btn-submit">SUBMIT</button>
   `;
